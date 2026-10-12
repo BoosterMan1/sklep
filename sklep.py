@@ -812,10 +812,12 @@ import os
 #     }
 # ]
 
-saldoFirmy = 0.0
 
-# Tu należy podać ścieżkę do swojego magazynu, lub odkomentować magazyn powyżej
-sciezkaDoMagazynu = "C:\\Users\\PC\\Desktop\\Programowanie4C\\magazyn.json"
+
+# Tu należy podać ścieżkę do swojego magazynu, lub odkomentować listę magazyn powyżej
+sciezkaDoMagazynu = "twoja ścieżka"
+
+saldoFirmy = 0.0
 
 with open(sciezkaDoMagazynu, "r", encoding="utf-8") as plik:
     magazyn = json.load(plik)
